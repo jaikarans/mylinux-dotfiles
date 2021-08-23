@@ -7,6 +7,17 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
+[Containments][17]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=ddf6ff97-9a0d-476e-a2d9-c078971dbc7f
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments][17][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Bamboo/contents/images/5120x2880.png
 SlidePaths=/home/jaikaran/.local/share/wallpapers,/usr/share/wallpapers
