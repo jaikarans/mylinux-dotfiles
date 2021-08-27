@@ -58,3 +58,18 @@ plasmapkg2 -i .
 cd ../..
 rm -rf apptitle-plasmoid
 
+
+# ###### Better inline clock ####### #
+
+# remove if already exists
+rm -rf ~/.local/share/plasma/plasmoids/org.kde.plasma.betterinlineclock
+
+echo 
+echo '==> Installing Better inline clock...'
+echo 
+git clone https://github.com/MarianArlt/kde-plasmoid-betterinlineclock.git
+cd kde-plasmoid-betterinlineclock/org.kde.plasma.betterinlineclock
+plasmapkg2 -i .
+# cleaning repo
+cd ../..
+rm -rf kde-plasmoid-betterinlineclock
