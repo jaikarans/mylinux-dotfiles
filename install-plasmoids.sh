@@ -6,7 +6,7 @@ echo $USER_ID
 # check if script is not running as root
     if [  $USER_ID -ne 0 ]
 then 
-    echo 'please run this file as root'
+    echo 'Please run this file as rootgit '
     echo 'sudo sh install-plasmoids.sh'
     exit
 fi
@@ -26,7 +26,7 @@ fi
 
 git clone https://github.com/dfaust/plasma-applet-netspeed-widget.git
 echo 
-echo '# installing Netspeed Widget...'
+echo '# Installing Netspeed Widget...'
 cd plasma-applet-netspeed-widget
 mkdir build
 cd build
@@ -34,6 +34,6 @@ cmake -DCMAKE_INASTALL_PREFIX=/usr ..
 make
 sudo make install
 
-#removeing cloned repo from dotfiles repo
+# removing cloned repo from dotfiles repo
 cd ../..
 rm -rf plasma-applet-netspeed-widget
