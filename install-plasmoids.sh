@@ -37,3 +37,24 @@ sudo make install
 # removing cloned repo from dotfiles repo
 cd ../..
 rm -rf plasma-applet-netspeed-widget
+
+# login as normal user
+sh su $SUDO_USER
+
+# if repo alredy exist then delete it before cloning 
+if [ -d "./apptitle-plasmoid" ] 
+then
+    rm -rf ./apptitle-plasmoid
+fi
+
+echo 
+echo '==> Installing Application title...'
+echo 
+git clone https://gitlab.com/aleixq/apptitle-plasmoid.git
+cd apptitle-plasmoid/org.communia.apptitle
+plasmapkg2 -i .
+
+#cleaing repo
+cd ../..
+rm -rf apptitle-plasmoid
+
