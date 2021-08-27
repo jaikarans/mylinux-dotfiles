@@ -9,7 +9,7 @@ then
 fi
 
 # remove if already exists
-rm -rf ~/.local/share/plasma/plasmoids/org.kde.plasma.betterinlineclock
+rm -rf ~/.local/share/plasma/plasmoids/org.communia.apptitle
 
 echo 
 echo '==> Installing Application title...'
