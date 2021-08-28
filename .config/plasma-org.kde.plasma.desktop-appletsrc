@@ -221,11 +221,14 @@ plugin=org.kde.plasma.notifications
 [Containments][2][Applets][31][Configuration]
 PreloadWeight=20
 
-[Containments][2][Applets][38]
+[Containments][2][Applets][39]
 immutability=1
-plugin=org.kde.plasma.kickerdash
+plugin=org.kde.plasma.kickoff
 
-[Containments][2][Applets][38][Configuration][General]
+[Containments][2][Applets][39][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][39][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][2][Applets][5]
@@ -257,7 +260,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=3;38;5;6;10;11;12;26;27;28;29;30;31
+AppletOrder=3;39;5;6;10;11;12;26;27;28;29;30;31
 
 [ScreenMapping]
 itemsOnDisabledScreens=
