@@ -8,8 +8,8 @@ All the dot files for configure my Linux with KDE Desktop Environment.
 git clone https://github.com/jaikarans/mylinux-dotfiles.git
 cd mylinux-dotfiles
 cp .config/plasma-org.kde.plasma.desktop-appletsrc ~/.config/
-sudo bash dependent-plasmoids.sh
-bash install-pasmoids.sh
+sudo ./dependent-plasmoids.sh
+./install-pasmoids.sh
 sudo reboot
 ```
 
