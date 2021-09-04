@@ -11,9 +11,8 @@ fi
 # remove if already exists
 rm -rf ~/.local/share/plasma/plasmoids/org.communia.apptitle
 
-echo 
-echo '==> Installing Application title...'
-echo 
+printf '\33[0;32m \n\n===> Installing Application title... \n \33[0m'
+
 git clone https://gitlab.com/aleixq/apptitle-plasmoid.git
 cd apptitle-plasmoid/org.communia.apptitle
 plasmapkg2 -i .
@@ -33,9 +32,8 @@ fi
 # remove if already exists
 rm -rf ~/.local/share/plasma/plasmoids/org.kde.plasma.betterinlineclock
 
-echo 
-echo '==> Installing Better inline clock...'
-echo 
+printf '\33[0;32m \n\n ===> Installing Better inline clock... \n \33[0m'
+ 
 git clone https://github.com/MarianArlt/kde-plasmoid-betterinlineclock.git
 cd kde-plasmoid-betterinlineclock/org.kde.plasma.betterinlineclock
 plasmapkg2 -i .
@@ -55,9 +53,8 @@ fi
 # remove if already exists
 rm -rf ~/.local/share/plasma/plasmoids/org.kde.latte.separator
 
-echo 
-echo '==> Installing Latte separator...'
-echo 
+printf '\33[0;32m \n\n ===> Installing Latte separator... \n \33[0m'
+ 
 git clone https://github.com/psifidotos/applet-latte-separator.git
 cd applet-latte-separator
 plasmapkg2 -i .

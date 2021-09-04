@@ -5,8 +5,8 @@ USER_ID=`id -u`
 # check if script is not running as root
     if [  $USER_ID -ne 0 ]
 then 
-    echo 'Please run this file as sudo'
-    echo 'sudo ./install-packages'
+    printf '\33[0;31m Please run this file as sudo \n'
+    printf '\t sudo ./install-packages \33[0m'
     exit
 fi
 
