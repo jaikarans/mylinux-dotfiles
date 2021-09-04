@@ -42,3 +42,26 @@ plasmapkg2 -i .
 # cleaning repo
 cd ../..
 rm -rf kde-plasmoid-betterinlineclock
+
+
+# ###### Latte separator ####### #
+
+# if repo alredy exist then delete it before cloning 
+if [ -d "./applet-latte-separator" ] 
+then
+    rm -rf ./applet-latte-separator
+fi
+
+# remove if already exists
+rm -rf ~/.local/share/plasma/plasmoids/org.kde.latte.separator
+
+echo 
+echo '==> Installing Latte separator...'
+echo 
+git clone https://github.com/psifidotos/applet-latte-separator.git
+cd applet-latte-separator
+plasmapkg2 -i .
+# cleaning repo
+cd ..
+rm -rf applet-latte-separator
+
