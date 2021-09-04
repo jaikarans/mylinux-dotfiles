@@ -1,7 +1,6 @@
 #!/bin/bash
 
 USER_ID=`id -u`
-echo $USER_ID
 
 # check if script is not running as root
     if [  $USER_ID -ne 0 ]
