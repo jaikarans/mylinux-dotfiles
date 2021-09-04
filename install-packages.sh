@@ -11,4 +11,4 @@ then
     exit
 fi
 
-pacman -S latte-dock
+pacman -S --noconfirm latte-dock
