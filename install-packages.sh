@@ -10,4 +10,4 @@ then
     exit
 fi
 
-pacman -S --noconfirm latte-dock
+pacman -S --noconfirm latte-dock fish
