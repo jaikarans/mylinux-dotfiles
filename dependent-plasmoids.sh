@@ -6,8 +6,8 @@ echo $USER_ID
 # check if script is not running as root
     if [  $USER_ID -ne 0 ]
 then 
-    echo 'Please run this file as rootgit '
-    echo 'sudo sh install-plasmoids.sh'
+    echo 'Please run this file as sudo'
+    echo 'sudo ./dependent-plasmoids'
     exit
 fi
 
