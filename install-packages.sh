@@ -13,3 +13,5 @@ fi
 pacman -S --noconfirm latte-dock fish starship
 
 pcaman -S --noconfirm vim
+
+pacman -S firfox firfox-developer-edition code
