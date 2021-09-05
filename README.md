@@ -16,6 +16,8 @@ sudo ./dependent-plasmoids.sh
 ### Configuration
 ```bash
 cp -r .config/ ~/.config/
+cp ./.bashrc ~/.bashrc
+cp ./.vimrc ~/.vimrc
 ```
 
 ### Themes
@@ -23,6 +25,7 @@ cp -r .config/ ~/.config/
 #### Dracula Theme
 ```bash
 ./dracula-theme/fish.sh
+./dracula-theme/vim.sh
 ```
 
 ## License
