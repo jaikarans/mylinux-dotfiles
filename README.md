@@ -18,6 +18,7 @@ sudo ./dependent-plasmoids.sh
 cp -r .config/ ~/.config/
 cp ./.bashrc ~/.bashrc
 cp ./.vimrc ~/.vimrc
+cp -r .local/ ~/.local/
 ```
 
 ### Themes
