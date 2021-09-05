@@ -11,3 +11,5 @@ then
 fi
 
 pacman -S --noconfirm latte-dock fish starship
+
+pcaman -S --noconfirm vim
