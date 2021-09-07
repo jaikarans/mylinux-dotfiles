@@ -3,6 +3,8 @@
 All the dot files for configure my Linux with KDE Desktop Environment.
 
 ![Desktop-dracula](pictures/dracula-desktop.png)
+![Dracula-konsole](pictures/dracule-konsole.png)
+
 
 ## Installation
 
