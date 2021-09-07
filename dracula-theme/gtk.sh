@@ -5,6 +5,16 @@
 
 # Make dir if not exists
 mkdir -p ~/.themes
+
+# Remove if dracula theme alredy exists in ~/.themes
+# eval is necessary because -d does not recongnise ~ sign
+if [ -d "`eval echo ~/.themes/dracula`" ]
+then 
+    rm -rf ~/.themes/dracula
+fi
+
+printf '\33[0;32m Installing dracula theme for GTK'
+
 # Clone the dracula gkt repo inside ~/.themes directory
 git clone https://github.com/dracula/gtk.git ~/.themes/dracula
 
