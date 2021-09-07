@@ -29,6 +29,7 @@ cp -r .local/ ~/.local/
 ```bash
 ./dracula-theme/fish.sh
 ./dracula-theme/vim.sh
+./dracula-theme/gtk.sh
 ```
 
 ## License
