@@ -15,7 +15,7 @@ then
 fi
 
 # installing cmake for Netspeed Widget
-pacman -S --noconfirm cmake extra-cmake-modules
+pacman -S --noconfirm cmake extra-cmake-modules ksysguard
 
 printf '\33[0;32m \n\n ===> Installing plasmoids... \n \33[0m' 
 
